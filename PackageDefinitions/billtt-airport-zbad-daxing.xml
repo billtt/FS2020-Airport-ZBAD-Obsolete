@@ -1,0 +1,31 @@
+<AssetPackage Name="billtt-airport-zbad-daxing" Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>ZBAD Airport</Title>
+		<Manufacturer/>
+		<Creator>billtt</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>ContentInfo</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\billtt-airport-zbad-daxing\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\billtt-airport-zbad-daxing\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="zbad-airport">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\BGLs\zbad-airport\</AssetDir>
+			<OutputDir>Scenery\zbad-airport\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+

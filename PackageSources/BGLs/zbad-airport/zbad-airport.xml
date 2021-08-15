@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<FSData version="9.0">
+	<Airport region="Asia" country="China" city="Beijing" name="DaXing International Airport" ident="ZBAD" lat="39.51065949011063" lon="116.41105562248612" alt="24.26569539960474" magvar="0.000000" airportTestRadius="3613.89981578153447" applyFlatten="FALSE" isOnTIN="FALSE">
+		<TaxiName index="0" name=""/>
+		<Runway displayName="Rwy 29R-11L" lat="39.51294824167640" lon="116.45279852895581" alt="25.78607665561140" heading="282.49642944335938" length="3800.00000000000000" width="60.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="29" designator="R" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
+			<Markings edges="TRUE" threshold="TRUE" alternateThreshold="FALSE" fixedDistance="TRUE" alternateFixedDistance="FALSE" touchdown="TRUE" alternateTouchdown="FALSE" dashes="TRUE" ident="TRUE" leadingZeroIdent="FALSE" precision="TRUE" alternatePrecision="FALSE" edgePavement="TRUE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="MEDIUM" edge="HIGH"/>
+			<ApproachLights end="PRIMARY" system="ODALS" strobes="0" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="FALSE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
+			<ApproachLights end="SECONDARY" system="ODALS" strobes="0" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="FALSE" offset="30.480000" spacing="16.000000" slope="0.000000"/>
+			<Vasi end="PRIMARY" side="LEFT" type="PAPI4" biasX="42.057785" biasZ="1566.675415" spacing="90.000000" pitch="3.000000"/>
+			<Vasi end="SECONDARY" side="LEFT" type="PAPI4" biasX="44.387283" biasZ="1568.622803" spacing="90.000000" pitch="3.000000"/>
+			<Ils lat="39.50992198398192" lon="116.47051953151862" alt="12.99178029410541" end="PRIMARY" ident="IBP" magvar="0.000000" heading="109.00000000000000" frequency="108.69999999999999" name="ILS 29R" backCourse="FALSE"/>
+			<RunwayStart end="PRIMARY" lat="39.50957182070147" lon="116.47246134743251" alt="26.14253474120051" heading="282.80368041992188"/>
+			<RunwayStart end="SECONDARY" lat="39.51631978079358" lon="116.43315974195954" alt="26.33267778903246" heading="101.56476593017578"/>
+		</Runway>
+		<Runway displayName="Rwy 01L-19R" groupIndex="1" lat="39.48663447464080" lon="116.42901443647068" alt="24.75029604788870" heading="353.24935913085938" length="3450.00000000000000" width="60.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="01" designator="L" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
+			<Markings edges="TRUE" threshold="TRUE" alternateThreshold="FALSE" fixedDistance="TRUE" alternateFixedDistance="FALSE" touchdown="TRUE" alternateTouchdown="FALSE" dashes="TRUE" ident="TRUE" leadingZeroIdent="FALSE" precision="TRUE" alternatePrecision="FALSE" edgePavement="TRUE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="MEDIUM" edge="HIGH"/>
+			<ApproachLights end="PRIMARY" system="ODALS" strobes="0" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="FALSE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
+			<ApproachLights end="SECONDARY" system="ODALS" strobes="0" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="FALSE" offset="25.000000" spacing="25.000000" slope="0.000000"/>
+			<Vasi end="PRIMARY" side="LEFT" type="PAPI4" biasX="41.402451" biasZ="1393.589722" spacing="90.000000" pitch="3.000000"/>
+			<Vasi end="SECONDARY" side="LEFT" type="PAPI4" biasX="44.387283" biasZ="1568.622803" spacing="90.000000" pitch="3.000000"/>
+			<Ils lat="39.47428706603201" lon="116.43094241613147" alt="11.98587482981384" end="PRIMARY" ident="IDN" magvar="0.000000" heading="179.00000000000000" frequency="110.55000000000000" name="ILS 01L" backCourse="FALSE"/>
+			<Ils lat="39.49907431515575" lon="116.42711161027759" alt="24.91450879164040" end="SECONDARY" ident="IDZ" magvar="0.000000" heading="359.00000000000000" frequency="110.55000000000000" name="ILS 19R" backCourse="FALSE"/>
+			<RunwayStart end="PRIMARY" lat="39.47272013268923" lon="116.43114193342552" alt="24.90207012277097" heading="354.24935913085938"/>
+			<RunwayStart end="SECONDARY" lat="39.50053585864488" lon="116.42688276213700" alt="24.98089390620589" heading="174.25091552734375"/>
+		</Runway>
+		<Runway displayName="Rwy 35L-17R" groupIndex="3" lat="39.50009465666054" lon="116.39004918956941" alt="23.96742518525571" heading="352.95358276367188" length="3800.00000000000000" width="45.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="35" designator="L" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
+			<Markings edges="TRUE" threshold="TRUE" alternateThreshold="FALSE" fixedDistance="TRUE" alternateFixedDistance="FALSE" touchdown="TRUE" alternateTouchdown="FALSE" dashes="TRUE" ident="TRUE" leadingZeroIdent="FALSE" precision="TRUE" alternatePrecision="FALSE" edgePavement="TRUE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="MEDIUM" edge="HIGH"/>
+			<ApproachLights end="PRIMARY" system="ODALS" strobes="0" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="FALSE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
+			<ApproachLights end="SECONDARY" system="ODALS" strobes="0" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="FALSE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
+			<Vasi end="PRIMARY" side="LEFT" type="PAPI4" biasX="37.037994" biasZ="1557.886719" spacing="90.000000" pitch="3.000000"/>
+			<Vasi end="SECONDARY" side="LEFT" type="PAPI4" biasX="44.387283" biasZ="1568.622803" spacing="90.000000" pitch="3.000000"/>
+			<Ils lat="39.48609959385079" lon="116.39227845423258" alt="24.18726336304098" end="PRIMARY" ident="IXR" magvar="0.000000" heading="179.00000000000000" frequency="111.89999999999999" name="ILS 35L" backCourse="FALSE"/>
+			<Ils lat="39.51410283314175" lon="116.38780585668513" alt="24.13321230653673" end="SECONDARY" ident="IXE" magvar="0.000000" heading="359.00000000000000" frequency="111.89999999999999" name="ILS 17R" backCourse="FALSE"/>
+			<RunwayStart end="PRIMARY" lat="39.48462500876133" lon="116.39252104267466" alt="24.11958927568048" heading="353.95358276367188"/>
+			<RunwayStart end="SECONDARY" lat="39.51556914788431" lon="116.38758103602005" alt="24.19273502845317" heading="173.95425415039062"/>
+		</Runway>
+		<Runway displayName="Rwy 35R-17L" groupIndex="2" lat="39.50095028794470" lon="116.39883696711247" alt="23.99160788767040" heading="352.95358276367188" length="3800.00000000000000" width="60.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="35" designator="R" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
+			<Markings edges="TRUE" threshold="TRUE" alternateThreshold="FALSE" fixedDistance="TRUE" alternateFixedDistance="FALSE" touchdown="TRUE" alternateTouchdown="FALSE" dashes="TRUE" ident="TRUE" leadingZeroIdent="FALSE" precision="TRUE" alternatePrecision="FALSE" edgePavement="TRUE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="MEDIUM" edge="HIGH"/>
+			<ApproachLights end="PRIMARY" system="ODALS" strobes="0" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="FALSE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
+			<ApproachLights end="SECONDARY" system="ODALS" strobes="0" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="FALSE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
+			<Vasi end="PRIMARY" side="LEFT" type="PAPI4" biasX="37.037994" biasZ="1557.886719" spacing="90.000000" pitch="3.000000"/>
+			<Vasi end="SECONDARY" side="LEFT" type="PAPI4" biasX="44.387283" biasZ="1568.622803" spacing="90.000000" pitch="3.000000"/>
+			<Ils lat="39.48689407421667" lon="116.40106630972909" alt="24.21093597449362" end="PRIMARY" ident="IXO" magvar="0.000000" heading="179.00000000000000" frequency="110.75000000000000" name="ILS 35R" backCourse="FALSE"/>
+			<Ils lat="39.51491006073357" lon="116.39660422282340" alt="24.15717131644487" end="SECONDARY" ident="IXA" magvar="0.000000" heading="359.00000000000000" frequency="110.75000000000000" name="ILS 17L" backCourse="FALSE"/>
+			<RunwayStart end="PRIMARY" lat="39.48548064004550" lon="116.40130882021772" alt="24.14377197809517" heading="353.95358276367188"/>
+			<RunwayStart end="SECONDARY" lat="39.51642477916848" lon="116.39636881356311" alt="24.21691773086786" heading="173.95425415039062"/>
+		</Runway>
+		<Aprons/>
+		<PaintedElements/>
+		<ApronEdgeLights/>
+		<DeleteAirport deleteAllApproaches="TRUE" deleteAllApronLights="FALSE" deleteAllAprons="FALSE" deleteAllFrequencies="FALSE" deleteAllHelipads="FALSE" deleteAllRunways="TRUE" deleteAllStarts="FALSE" deleteAllTaxiways="FALSE" deleteAllBlastFences="FALSE" deleteAllBoundaryFences="FALSE" deleteAllJetways="FALSE" deleteAllControlTowers="FALSE" deleteAllDepartures="FALSE" deleteAllArrivals="FALSE" deleteAllPaintedElements="FALSE" deleteAllLightSupports="TRUE" deleteAllTaxiwaySigns="FALSE" deleteAllILSs="TRUE" deleteAllTerminalWaypoints="FALSE" deleteAllTerminalNDBs="FALSE"/>
+	</Airport>
+</FSData>
+

@@ -1,0 +1,9 @@
+<Project Version="2" Name="ZBAD" FolderName="Packages">
+	<OutputDirectory>.</OutputDirectory>
+	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
+	<Packages>
+		<Package>PackageDefinitions\billtt-airport-zbad-daxing.xml</Package>
+		<Package>PackageDefinitions\zbad-aerial.xml</Package>
+	</Packages>
+</Project>
+
