@@ -1,20 +1,54 @@
 <?xml version="1.0"?>
 <FSData version="9.0">
 	<Airport region="Asia" country="China" city="Beijing" name="DaXing International Airport" ident="ZBAD" lat="39.51065949011063" lon="116.41105562248612" alt="24.26569539960474" magvar="0.000000" airportTestRadius="3613.89981578153447" applyFlatten="FALSE" isOnTIN="FALSE">
-		<AirportGroup displayName="Runways" groupID="1"/>
+		<AirportGroup displayName="Gates" groupID="1" groupIndex="40"/>
+		<AirportGroup displayName="Runways" groupID="2" groupIndex="5"/>
+		<TaxiwayPoint groupIndex="38" index="5" type="NORMAL" orientation="FORWARD" lat="39.51804933810099" lon="116.39888982848856"/>
+		<TaxiwayPoint groupIndex="37" index="6" type="NORMAL" orientation="FORWARD" lat="39.51769922665636" lon="116.39952571499785"/>
+		<TaxiwayPoint groupIndex="36" index="7" type="NORMAL" orientation="FORWARD" lat="39.51725085466177" lon="116.39958041822946"/>
+		<TaxiwayPoint groupIndex="39" index="8" type="HOLD_SHORT" orientation="FORWARD" lat="39.51790886572160" lon="116.39738394389062"/>
+		<TaxiwayPoint groupIndex="35" index="9" type="NORMAL" orientation="FORWARD" lat="39.51685628435821" lon="116.39964491167952"/>
+		<TaxiwayPoint groupIndex="34" index="10" type="NORMAL" orientation="FORWARD" lat="39.51661615612269" lon="116.40019911964133"/>
+		<TaxiwayPoint groupIndex="33" index="11" type="NORMAL" orientation="FORWARD" lat="39.51644848932136" lon="116.40067034182120"/>
+		<TaxiwayPoint groupIndex="32" index="12" type="NORMAL" orientation="FORWARD" lat="39.51568135853507" lon="116.40081494407949"/>
+		<TaxiwayPoint groupIndex="31" index="13" type="NORMAL" orientation="FORWARD" lat="39.51537111180877" lon="116.40052981780971"/>
+		<TaxiwayPoint groupIndex="30" index="14" type="NORMAL" orientation="FORWARD" lat="39.51526788409490" lon="116.40004123544986"/>
+		<TaxiwayPoint groupIndex="29" index="15" type="NORMAL" orientation="FORWARD" lat="39.51505797481403" lon="116.39994289857459"/>
+		<TaxiwayPoint groupIndex="28" index="16" type="NORMAL" orientation="FORWARD" lat="39.51430782948303" lon="116.40008141341114"/>
+		<TaxiwayPoint groupIndex="27" index="17" type="NORMAL" orientation="FORWARD" lat="39.51413362513821" lon="116.40011494033926"/>
+		<TaxiwayPoint groupIndex="26" index="18" type="NORMAL" orientation="FORWARD" lat="39.51379638517211" lon="116.40061786808246"/>
+		<TaxiwayPoint groupIndex="25" index="19" type="NORMAL" orientation="FORWARD" lat="39.51346730461066" lon="116.40191546675497"/>
+		<TaxiwayPoint groupIndex="24" index="20" type="NORMAL" orientation="FORWARD" lat="39.51306770825482" lon="116.40227659893763"/>
+		<TaxiwayPoint groupIndex="23" index="21" type="NORMAL" orientation="FORWARD" lat="39.51268289207355" lon="116.40217184662683"/>
+		<TaxiwayPoint groupIndex="22" index="22" type="NORMAL" orientation="FORWARD" lat="39.51247864211116" lon="116.40237638717866"/>
+		<TaxiwayPoint groupIndex="21" index="23" type="NORMAL" orientation="FORWARD" lat="39.51207763842381" lon="116.40354918515484"/>
+		<TaxiwayPoint groupIndex="20" index="24" type="NORMAL" orientation="FORWARD" lat="39.51194666930262" lon="116.40391802413615"/>
+		<TaxiwayParking displayName="Parking 101" parentGroupID="1" groupIndex="1" index="0" type="GATE_HEAVY" lat="39.51290486519635" lon="116.40412030046302" heading="136.231598" radius="32.000000" name="GATE" number="101" suffix="NONE" numberMarking="TRUE" numberBiasX="0.000000" numberBiasZ="0.000000" numberHeading="0.000000"/>
+		<TaxiwayParking displayName="Parking 102" parentGroupID="1" index="1" type="GATE_HEAVY" lat="39.51232369169694" lon="116.40383253911853" heading="82.456863" radius="32.000000" name="GATE" number="102" suffix="NONE" numberMarking="TRUE" numberBiasX="0.000000" numberBiasZ="0.000000" numberHeading="0.000000"/>
+		<TaxiwayParking displayName="Parking 104" parentGroupID="1" groupIndex="2" index="2" type="GATE_HEAVY" lat="39.51189927931141" lon="116.40350711623356" heading="83.239754" radius="32.000000" name="GATE" number="104" suffix="NONE" numberMarking="TRUE" numberBiasX="0.000000" numberBiasZ="0.000000" numberHeading="0.000000"/>
+		<TaxiwayParking displayName="Parking 105" parentGroupID="1" groupIndex="3" index="3" type="GATE_HEAVY" lat="39.51140375419682" lon="116.40373240772921" heading="45.055008" radius="32.000000" name="GATE" number="105" suffix="NONE" numberMarking="TRUE" numberBiasX="0.000000" numberBiasZ="0.000000" numberHeading="0.000000"/>
+		<TaxiwayParking displayName="Parking 106" parentGroupID="1" groupIndex="4" index="4" type="GATE_HEAVY" lat="39.51119797685190" lon="116.40428398919425" heading="13.899264" radius="32.000000" name="GATE" number="106" suffix="NONE" numberMarking="TRUE" numberBiasX="0.000000" numberBiasZ="0.000000" numberHeading="0.000000"/>
 		<TaxiName index="0" name=""/>
-		<Runway displayName="Rwy 29R-11L" parentGroupID="1" lat="39.51294824167640" lon="116.45279852895581" alt="25.78607665561140" heading="282.49642944335938" length="3800.00000000000000" width="60.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="29" designator="R" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
-			<Markings edges="TRUE" threshold="TRUE" alternateThreshold="FALSE" fixedDistance="TRUE" alternateFixedDistance="FALSE" touchdown="TRUE" alternateTouchdown="FALSE" dashes="TRUE" ident="TRUE" leadingZeroIdent="FALSE" precision="TRUE" alternatePrecision="FALSE" edgePavement="TRUE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
-			<Lights center="MEDIUM" edge="HIGH"/>
-			<ApproachLights end="PRIMARY" system="RAIL" strobes="5" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="TRUE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
-			<ApproachLights end="SECONDARY" system="RAIL" strobes="5" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="TRUE" offset="30.480000" spacing="16.000000" slope="0.000000"/>
-			<Vasi end="PRIMARY" side="LEFT" type="PAPI4" biasX="42.057785" biasZ="1566.675415" spacing="90.000000" pitch="3.000000"/>
-			<Vasi end="SECONDARY" side="LEFT" type="PAPI4" biasX="44.387283" biasZ="1568.622803" spacing="90.000000" pitch="3.000000"/>
-			<Ils lat="39.50992198398192" lon="116.47051953151862" alt="12.99178029410541" end="PRIMARY" ident="IBP" magvar="0.000000" heading="109.00000000000000" frequency="108.69999999999999" name="ILS 29R" backCourse="FALSE"/>
-			<RunwayStart end="PRIMARY" lat="39.50957182070147" lon="116.47246134743251" alt="26.14253474120051" heading="282.80368041992188"/>
-			<RunwayStart end="SECONDARY" lat="39.51631978079358" lon="116.43315974195954" alt="26.33267778903246" heading="101.56476593017578"/>
-		</Runway>
-		<Runway displayName="Rwy 01L-19R" parentGroupID="1" groupIndex="1" lat="39.48663447464080" lon="116.42901443647068" alt="24.75029604788870" heading="353.24935913085938" length="3450.00000000000000" width="60.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="01" designator="L" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
+		<TaxiwayPath groupIndex="19" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="8" end="5" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="18" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="5" end="6" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="17" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="6" end="7" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="16" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="7" end="9" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="15" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="9" end="10" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="14" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="10" end="11" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="13" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="11" end="12" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="12" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="12" end="13" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="11" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="13" end="14" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="10" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="14" end="15" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="9" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="15" end="16" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="8" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="16" end="17" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="7" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="17" end="18" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="6" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="18" end="19" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="4" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="19" end="20" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="3" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="20" end="21" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="2" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="21" end="22" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath groupIndex="1" type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="22" end="23" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<TaxiwayPath type="TAXI" surface="{85D02B2B-08A1-452E-AB07-6D5AE7F52884}" centerLine="TRUE" centerLineLighted="TRUE" start="23" end="24" width="30.000000" weightLimit="0" name="0" drawSurface="FALSE" drawDetail="TRUE" groundMerging="TRUE" excludeVegetationAround="TRUE" excludeVegetationInside="TRUE"/>
+		<Runway displayName="Rwy 01L-19R" parentGroupID="2" groupIndex="1" lat="39.48663447464080" lon="116.42901443647068" alt="24.75029604788870" heading="353.24935913085938" length="3450.00000000000000" width="60.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="01" designator="L" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
 			<Markings edges="TRUE" threshold="TRUE" alternateThreshold="FALSE" fixedDistance="TRUE" alternateFixedDistance="FALSE" touchdown="TRUE" alternateTouchdown="FALSE" dashes="TRUE" ident="TRUE" leadingZeroIdent="FALSE" precision="TRUE" alternatePrecision="FALSE" edgePavement="TRUE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
 			<Lights center="MEDIUM" edge="HIGH"/>
 			<ApproachLights end="PRIMARY" system="RAIL" strobes="5" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="TRUE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
@@ -26,7 +60,18 @@
 			<RunwayStart end="PRIMARY" lat="39.47272013268923" lon="116.43114193342552" alt="24.90207012277097" heading="354.24935913085938"/>
 			<RunwayStart end="SECONDARY" lat="39.50053585864488" lon="116.42688276213700" alt="24.98089390620589" heading="174.25091552734375"/>
 		</Runway>
-		<Runway displayName="Rwy 35L-17R" parentGroupID="1" groupIndex="2" lat="39.50009465666054" lon="116.39004918956941" alt="23.96742518525571" heading="352.95358276367188" length="3800.00000000000000" width="45.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="35" designator="L" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
+		<Runway displayName="Rwy 29R-11L" parentGroupID="2" lat="39.51294824167640" lon="116.45279852895581" alt="25.78607665561140" heading="282.49642944335938" length="3800.00000000000000" width="60.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="29" designator="R" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
+			<Markings edges="TRUE" threshold="TRUE" alternateThreshold="FALSE" fixedDistance="TRUE" alternateFixedDistance="FALSE" touchdown="TRUE" alternateTouchdown="FALSE" dashes="TRUE" ident="TRUE" leadingZeroIdent="FALSE" precision="TRUE" alternatePrecision="FALSE" edgePavement="TRUE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
+			<Lights center="MEDIUM" edge="HIGH"/>
+			<ApproachLights end="PRIMARY" system="RAIL" strobes="5" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="TRUE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
+			<ApproachLights end="SECONDARY" system="RAIL" strobes="5" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="TRUE" offset="30.480000" spacing="16.000000" slope="0.000000"/>
+			<Vasi end="PRIMARY" side="LEFT" type="PAPI4" biasX="42.057785" biasZ="1566.675415" spacing="90.000000" pitch="3.000000"/>
+			<Vasi end="SECONDARY" side="LEFT" type="PAPI4" biasX="44.387283" biasZ="1568.622803" spacing="90.000000" pitch="3.000000"/>
+			<Ils lat="39.50992198398192" lon="116.47051953151862" alt="12.99178029410541" end="PRIMARY" ident="IBP" magvar="0.000000" heading="109.00000000000000" frequency="108.69999999999999" name="ILS 29R" backCourse="FALSE"/>
+			<RunwayStart end="PRIMARY" lat="39.50957182070147" lon="116.47246134743251" alt="26.14253474120051" heading="282.80368041992188"/>
+			<RunwayStart end="SECONDARY" lat="39.51631978079358" lon="116.43315974195954" alt="26.33267778903246" heading="101.56476593017578"/>
+		</Runway>
+		<Runway displayName="Rwy 35L-17R" parentGroupID="2" groupIndex="2" lat="39.50009465666054" lon="116.39004918956941" alt="23.96742518525571" heading="352.95358276367188" length="3800.00000000000000" width="45.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="35" designator="L" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
 			<Markings edges="TRUE" threshold="TRUE" alternateThreshold="FALSE" fixedDistance="TRUE" alternateFixedDistance="FALSE" touchdown="TRUE" alternateTouchdown="FALSE" dashes="TRUE" ident="TRUE" leadingZeroIdent="FALSE" precision="TRUE" alternatePrecision="FALSE" edgePavement="TRUE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
 			<Lights center="MEDIUM" edge="HIGH"/>
 			<ApproachLights end="PRIMARY" system="RAIL" strobes="5" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="TRUE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
@@ -38,7 +83,7 @@
 			<RunwayStart end="PRIMARY" lat="39.48462500876133" lon="116.39252104267466" alt="24.11958927568048" heading="353.95358276367188"/>
 			<RunwayStart end="SECONDARY" lat="39.51556914788431" lon="116.38758103602005" alt="24.19273502845317" heading="173.95425415039062"/>
 		</Runway>
-		<Runway displayName="Rwy 35R-17L" parentGroupID="1" groupIndex="3" lat="39.50095028794470" lon="116.39883696711247" alt="23.99160788767040" heading="352.95358276367188" length="3800.00000000000000" width="60.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="35" designator="R" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
+		<Runway displayName="Rwy 35R-17L" parentGroupID="2" groupIndex="3" lat="39.50095028794470" lon="116.39883696711247" alt="23.99160788767040" heading="352.95358276367188" length="3800.00000000000000" width="60.00000000000000" patternAltitude="304.79998779296875" surface="{2E0DE83F-B79A-4435-905C-DCBBEAC55C59}" transparent="FALSE" number="35" designator="R" primaryLanding="TRUE" primaryTakeoff="TRUE" primaryPattern="LEFT" secondaryLanding="TRUE" secondaryTakeoff="TRUE" secondaryPattern="LEFT" primaryMarkingBias="0.00000000000000" secondaryMarkingBias="0.00000000000000" groundMerging="TRUE" excludeVegetationAround="TRUE">
 			<Markings edges="TRUE" threshold="TRUE" alternateThreshold="FALSE" fixedDistance="TRUE" alternateFixedDistance="FALSE" touchdown="TRUE" alternateTouchdown="FALSE" dashes="TRUE" ident="TRUE" leadingZeroIdent="FALSE" precision="TRUE" alternatePrecision="FALSE" edgePavement="TRUE" singleEnd="FALSE" primaryClosed="FALSE" secondaryClosed="FALSE" primaryStol="FALSE" secondaryStol="FALSE" noThresholdEndArrows="FALSE"/>
 			<Lights center="MEDIUM" edge="HIGH"/>
 			<ApproachLights end="PRIMARY" system="RAIL" strobes="5" endLights="TRUE" touchdown="TRUE" snapToGround="FALSE" reil="TRUE" offset="30.480000" spacing="30.480000" slope="0.000000"/>
@@ -50,6 +95,31 @@
 			<RunwayStart end="PRIMARY" lat="39.48548064004550" lon="116.40130882021772" alt="24.14377197809517" heading="353.95358276367188"/>
 			<RunwayStart end="SECONDARY" lat="39.51642477916848" lon="116.39636881356311" alt="24.21691773086786" heading="173.95425415039062"/>
 		</Runway>
+		<Jetway gateName="GATE" parkingNumber="101" suffix="NONE">
+			<SceneryObject lat="39.51276900752453" lon="116.40461468189953" alt="0.00000000000000" pitch="0.000874" bank="-0.000874" heading="31.270669" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+				<SimObject containerTitle="CloudSurf Asia_changi_jetway" scale="1.000000"/>
+			</SceneryObject>
+		</Jetway>
+		<Jetway gateName="GATE" parkingNumber="102" suffix="NONE">
+			<SceneryObject lat="39.51226571650862" lon="116.40436371292401" alt="0.00000000000000" pitch="0.000000" bank="0.000000" heading="0.000000" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+				<SimObject containerTitle="CloudSurf Asia_changi_jetway" scale="1.000000"/>
+			</SceneryObject>
+		</Jetway>
+		<Jetway gateName="GATE" parkingNumber="104" suffix="NONE">
+			<SceneryObject lat="39.51183828584331" lon="116.40403678771253" alt="0.00000000000000" pitch="0.001441" bank="-0.001441" heading="-8.588007" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+				<SimObject containerTitle="CloudSurf Asia_changi_jetway" scale="1.000000"/>
+			</SceneryObject>
+		</Jetway>
+		<Jetway gateName="GATE" parkingNumber="105" suffix="NONE">
+			<SceneryObject lat="39.51160578171822" lon="116.40420849710902" alt="0.00000000000000" pitch="0.001291" bank="-0.001291" heading="-68.223884" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+				<SimObject containerTitle="CloudSurf Asia_changi_jetway" scale="1.000000"/>
+			</SceneryObject>
+		</Jetway>
+		<Jetway gateName="GATE" parkingNumber="106" suffix="NONE">
+			<SceneryObject lat="39.51155777821509" lon="116.40453240735286" alt="0.00000000000000" pitch="0.001612" bank="-0.001297" heading="-88.405277" imageComplexity="VERY_SPARSE" altitudeIsAgl="TRUE" snapToGround="TRUE" snapToNormal="FALSE">
+				<SimObject containerTitle="CloudSurf Asia_changi_jetway" scale="1.000000"/>
+			</SceneryObject>
+		</Jetway>
 		<Aprons/>
 		<PaintedElements/>
 		<ApronEdgeLights/>

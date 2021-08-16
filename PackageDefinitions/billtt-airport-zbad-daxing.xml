@@ -26,6 +26,14 @@
 			<AssetDir>PackageSources\BGLs\zbad-airport\</AssetDir>
 			<OutputDir>Scenery\zbad-airport\</OutputDir>
 		</AssetGroup>
+		<AssetGroup Name="zbad-materials">
+			<Type>MaterialLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\MaterialLibs\zbad-materials</AssetDir>
+			<OutputDir>MaterialLibs\zbad-materials</OutputDir>
+		</AssetGroup>
 	</AssetGroups>
 </AssetPackage>
 
