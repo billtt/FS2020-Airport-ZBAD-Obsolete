@@ -31,8 +31,8 @@
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
-			<AssetDir>PackageSources\MaterialLibs\zbad-materials</AssetDir>
-			<OutputDir>MaterialLibs\zbad-materials</OutputDir>
+			<AssetDir>PackageSources\MaterialLibs\zbad-materials\</AssetDir>
+			<OutputDir>MaterialLibs\zbad-materials\</OutputDir>
 		</AssetGroup>
 	</AssetGroups>
 </AssetPackage>
